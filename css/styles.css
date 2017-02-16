@@ -1,0 +1,842 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body {
+	margin: 0 auto;
+	font-family: 'myFirstFont' !important;
+}
+
+
+@font-face {
+    font-family: 'myFirstFont';
+    src: url(../fonts/PTC55F.ttf);
+}
+
+@font-face {
+	font-family: 'Normal Font';  
+	src: url('fonts/PTC55F.ttf');  
+	font-weight: normal;  
+
+}
+
+@font-face {
+
+	font-family: 'Motorhead 2 Font';  
+
+	src: url('../fonts/Fraktur 2.ttf');  
+
+	font-weight: normal;  
+
+}
+
+
+
+
+.container-fluid{
+	width: 80%;
+	margin-right: auto !important;
+  	margin-left: auto !important;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+
+
+p {
+	color: #7e7f84;
+	font-family: 'myFirstFont' !important;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'myFirstFont' !important;
+}
+
+
+/*FONTS: The fonts used are PT Sans (google font) and Arial*/
+
+
+
+
+.aaa {
+	background-color: green;
+}
+
+.bbb {
+	background-color: red;
+}
+
+.ccc {
+	background-color: blue;
+}
+
+.differentsize {
+	margin-top: 30px !important;
+}
+
+.padding1 {
+	padding-top: 50px !important;
+}
+
+.differentsize2 {
+	margin-bottom: 20px !important;
+}
+
+
+
+
+.headertext {
+	color: #7e7f84;
+	font-family: 'arial' !important;
+}
+
+
+.logoimg {
+	width: 100%;
+}
+
+.header-container {
+	padding-top: 20px !important; /*May need some fixing*/
+  	padding-bottom: 20px !important; /*May need some fixing*/
+}
+
+.menu-container {
+	border-top: 1px solid #7e7f84;
+}
+
+.li-main {
+	list-style-type: none;
+	display: inline;
+	float: left;
+	margin-right: 50px !important;
+	position: relative;
+    display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	padding-right: 30px;
+	font-size: 1.2vw;
+	color: #7e7f84;
+}
+
+nav {
+	padding-top: 10px !important; 
+	padding-bottom: 10px !important;
+	float: left;
+}
+
+
+
+
+
+#primary_nav_wrap
+{
+	margin-top:15px;
+}
+
+#primary_nav_wrap ul
+{
+	position:relative;
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#7e7f84;
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	list-style-type: none;
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background: red;
+	list-style-type: none;
+}
+
+#primary_nav_wrap ul li a:hover
+{
+	color: #f45a40;
+	text-decoration: none;
+}
+
+#primary_nav_wrap ul ul
+{
+	display: none;
+	position: absolute;
+	top:100%;
+	left:0;
+	background:#999999;
+	padding: 40px !important;
+	z-index: 1;
+	width: 250px;
+}
+
+#primary_nav_wrap ul ul li
+{
+	float: none;
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height: 120%;
+	color: white;
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+
+
+
+
+
+
+
+
+
+
+
+.searchbar-div input {
+	width: 10vw;
+	border: none;
+}
+
+.searchbar-div {
+	display: flex;
+	justify-content: flex-end !important;
+}
+
+.searchimg {
+	margin-right: 10px !important;
+}
+
+.flex-searchbar {
+	display: flex;
+	align-items: center;
+}
+
+
+.cleaner {
+	clear: both;
+}
+
+
+.smallimg {
+	width: 1.2vw; /*May need some fixing*/
+}
+
+.shopcart-div {
+	background-color: #ededed;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	padding-left: 10px !important;
+}
+
+
+.flex-smallimg {
+	display: flex !important;
+	justify-content: flex-end !important;
+	align-items: center !important;
+}
+
+.smallimg-div {
+	padding-right: 50px !important;
+}
+
+.flex-header {
+	display: flex;
+	align-items: center;
+}
+
+
+
+
+
+
+
+.mycontainer1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box1 {
+	width: 30%;
+}
+
+
+.largerpic-h3 {
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+}
+
+.largerpic-container {
+	margin-bottom: 100px !important;
+	margin-top: 50px !important;
+}
+
+
+.largerpic-links {
+	color: #f45a40;
+}
+
+.largerpic-h3 a:hover {
+	color: #f45a40;
+}
+
+
+
+.annoyingtext-div {
+	text-align: center;
+}
+
+.annoyingtext-container {
+	margin-bottom: 50px !important;
+}
+
+
+
+.annoyingtext-text {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #67686d; 
+   line-height: 0.1em;
+   margin: 10px 0 20px !important;
+   color: #67686d;
+} 
+
+.annoyingtext-text span { 
+    background:#fff; 
+    padding:0 30px !important; 
+}
+
+
+
+
+.box2 {
+	width: 20%;
+	border-right: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+	border-top: 1px solid #eeeeee;
+}
+
+.smallerpic-div {
+	padding-right: 8px !important;
+	padding-left: 8px !important;
+}
+
+.mycontainer2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.smallerpic-h3 {
+	border-top: 1px solid #eeeeee;
+	padding: 0 !important;
+	padding-top: 20px !important;
+	padding-right: 20px !important; /*May need some fixing*/
+	padding-left: 20px !important; /*May need some fixing*/
+	color: #67686d;
+}
+
+.smallerpic-p {
+	border-bottom: 1px solid #eeeeee;
+	padding-bottom: 20px !important;
+	margin-right: 20px !important; /*May need some fixing*/
+	margin-left: 20px !important; /*May need some fixing*/
+}
+
+.smallerpic-shoe {
+	padding-bottom: 50px !important;
+}
+
+.smallerpic-price-div {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 20px !important; /*May need some fixing*/
+	margin-left: 20px !important; /*May need some fixing*/
+	margin-top: 10px !important; /*May need some fixing*/
+	margin-bottom: 20px !important; /*May need some fixing*/
+}
+
+.smallerpic-price-text {
+	color: #f45a40;
+	font-family: 'arial' !important;
+}
+
+
+.smallerpic-button {
+	width: 100%;
+	background-color: #f45a40;
+	color: white;
+	border: none;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	display: flex;
+	font-family: 'arial' !important;
+}
+
+.smallerpic-container {
+	margin-bottom: 100px !important;
+}
+
+
+.smallerpic-h4 {
+	border: none;
+	padding: 0 !important;
+	padding-right: 20px !important; /*May need some fixing*/
+	padding-left: 20px !important; /*May need some fixing*/
+	font-size: 15px;
+}
+
+
+
+
+.annoyingtext2-container {
+	padding-bottom: 30px !important;
+	padding-top: 30px !important;
+	width: 80% !important;
+	display: flex;
+	justify-content: space-between !important;
+	align-items: center;
+}
+
+.signup-width {
+	background-color: #f45a40;
+	width: 100% !important;
+	justify-content: center !important;
+	display: flex !important;
+}
+
+ .annoyingtext2-div-width {
+ 	width: 80% !important;
+ }
+
+.signup-button {
+	margin-left: 20px !important;
+	background-color: #ff674f;
+	padding: 10px !important;
+	color: white;
+	border: none;
+	padding-right: 20px !important;
+	padding-left: 20px !important;
+	font-family: 'arial' !important;
+}
+
+.signup-div input {
+	width: 15vw;
+	height: 4.5vh;
+	border: none;
+	text-align: center;
+}
+
+.signup-text {
+	color: white;
+	font-size: 1.4vw;
+}
+
+.signup-div {
+	float: right !important;
+}
+
+
+
+
+.footer-width {
+	background-color: #2a2d34;
+}
+
+.footer-container {
+	background-color: #2a2d34;
+	display: flex !important;
+	align-items: flex-start !important;
+}
+
+
+.li-footer {
+	list-style-type: none;
+}
+
+.li-footer a {
+	font-family: 'arial' !important;
+	color: white;
+	font-size: 0.8vw;
+	display: block;
+}
+
+
+.li-footer a{
+	color: #7e7f84;
+}
+
+.column1-p, .column2-p, .column3-p {
+	font-family: 'arial' !important;
+}
+
+.column2-p-white {
+	color: white;
+}
+
+.column1-h2, .column2-h2, .column3-h2 {
+	color: #ffffff; /*Whiterino*/
+	font-family: 'arial'
+}
+
+.column3-div-flex {
+	-webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+  -webkit-column-gap: 2em;
+     -moz-column-gap: 2em;
+          column-gap: 2em; 
+}
+
+
+
+.footerpic-div {
+	display: flex;
+}
+
+.footer-pic {
+	width: 2vw;
+	padding-right: 10px !important;
+}
+
+
+
+
+/*SLIDE SHOW*/
+[data-slides] {
+	background-image: url(images/slide-1.jpg); /* Default image. */
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	-ms-transition: all 0.7s ease;
+	-o-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+
+/* Use additional CSS to control the `height` of `[data-slides]`, like so: */
+
+.test { 
+	height: 700px;
+	display: flex;
+	align-content: center;
+}
+
+@media all and (min-width: 48em) {
+	.test { 
+		height: 700px;
+	}
+}
+
+/* additional CSS for hidden image preload section */
+[hidden] { display: none; }
+
+
+
+
+
+
+
+.fullsize-container {
+	background-color: #c6c1c7;
+}
+
+.slideimg {
+	width: 100%;
+	max-height: 700px;
+}
+
+.blackboard-h2 {
+	color: white;
+	font-size: 3.2vw;
+}
+
+.blackboard-p {
+	color: white;
+}
+
+.blackboard-button {
+	background-color: #f45a40;
+	color: white;
+	border: none;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	margin-bottom: 20px !important;
+	padding-right: 40px !important;
+	padding-left: 40px !important;
+	display: flex;
+	font-family: 'arial' !important;
+}
+
+
+.blackboard-div {
+	margin-left: 25% !important;
+}
+
+.blackboard {
+	width: 44%;
+	background-color: black;
+	background-color: rgba(0, 0, 0, 0.5);
+	align-items: center;
+	align-self: center;
+	display: flex;
+	height: 50%;
+	padding-right: 4% !important;
+}
+
+.fullwidth-line {
+	border-bottom: 7px solid #f45a40;
+}
+
+
+.contact-container {
+	margin-top: 100px !important;
+	margin-bottom: 500px !important;
+}
+
+.button-contacts {
+	width: 150px;
+}
+
+.h2-contacts {
+	color: #7e7f84;
+	font-style: bold;
+	font-size: 40px !important;
+	margin-bottom: 50px !important;
+}
+
+.message-p {
+	margin-bottom: 5px !important;
+}
+
+.detail-container {
+	margin-top: 50px !important;
+}
+
+.bigshoe-container {
+	width: 100%;
+	text-align: center;
+	border: 1px solid #c7c7c7;
+}
+
+.rightside-detail {
+	margin-top: 50px !important;
+}
+
+.h2-detail {
+	font-size: 25px !important;
+}
+
+.rightside-second {
+	display: flex;
+	justify-content: space-between;
+	margin-top: -30px !important;
+}
+
+.price-container h2{
+	font-size: 50px;
+	margin-top: 12px !important;
+}
+
+.rightside-third p{
+	float: right;
+	font-style: italic;
+}
+
+.oldprice {
+	text-decoration: line-through;
+}
+
+.formcontainer-detail {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nameinput {
+	height: 35px;
+	width: 300px;
+}
+
+.formcontainer-detail input{
+	height: 35px;
+}
+
+.sizeinput {
+	width: 70%;
+}
+
+.amountinput {
+	width: 20%;
+	text-align: center;
+}
+
+.sizeandamount {
+	margin-top: 50px !important;
+	display: flex;
+	justify-content: space-between;
+}
+
+.sizeandamount h4{
+	color: #7e7f84;
+	font-weight: bold;
+}
+
+.button-detail {
+	float: right;
+	margin-top: 20px !important;
+}
+
+.button-detail {
+	width: 300px;
+	height: 60px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.bigshoe-second-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+}
+
+.smallershoes {
+	width: 30%;
+	border: 1px solid #c7c7c7;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.description-container {
+	margin-top: 50px !important;
+}
+
+.description-buttons-a {
+	color: #7e7f84;
+	border: 1px solid #7e7f84;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding: 15px !important;
+	background-color: #f2f1f1;
+	width: 150px;
+	font-size: 20px;
+	border-bottom: none;
+}
+
+.description-buttons-a-1 {
+	background-color: white;
+	border-top: 10px solid #f45a40;
+	padding-bottom: 16px !important;
+	z-index: 2;
+}
+
+.description-buttons-a-2 {
+	padding-top: 25px !important;
+}
+
+.description-buttons-a-3 {
+	padding-top: 25px !important;
+}
+
+.description-line {
+	border-top: 1px solid #7e7f84;
+	margin-top: -1px !important;
+	margin-bottom: 20px !important;
+	z-index: 1;
+}
+
+.description-text {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 2em;
+	-moz-column-gap: 2em;
+	column-gap: 2em; 
+}
+
+.description-text-container {
+	margin-top: 40px !important;
+	margin-bottom: 300px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+}
+
+/* Style the links inside the tab */
+div.tab a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+
+    color: #7e7f84;
+    border: 1px solid #7e7f84;
+   
+    border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding: 15px !important;
+	background-color: #f2f1f1;
+	width: 150px;
+	font-size: 20px;
+
+	margin-right: 10px !important;
+}
+
+/* Change background color of links on hover */
+div.tab a:hover {
+    background-color: white;
+	border-top: 10px solid #f45a40;
+	margin-bottom: -9px !important;
+	z-index: 2;
+	 border-bottom: none;
+}
+
+/* Create an active/current tablink class */
+div.tab a:focus, .active {
+    background-color: white;
+	border-top: 10px solid #f45a40;
+	margin-bottom: -9px !important;
+	z-index: 2;
+	border-bottom: none;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border: none;
+}

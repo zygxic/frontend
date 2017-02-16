@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<script type="text/javascript" src="js/angularjs.js"></script>
+	<script src="js/angular-route.js"></script>
+	<script src="directory.js"></script>
+
+
+</head>
+
+<body>
+
+<ng-include src="'menu.html'"></ng-include>
+
+
+		<div class="container-fluid">
+
+
+
+
+
+		<div class="contact-container"> 
+		<h2 class="h2-contacts"> CONTACT US </h2>
+		
+		<form action="userinfo" method="post">
+
+		<p>NAME: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="name" placeholder="YOUR NAME..." class="nameinput"><br><br></p>
+
+		<p>EMAIL: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="email" placeholder="YOUR E-MAIL..." class="nameinput"><br><br></p>
+
+		<p class="message-p">MESSAGE:</p>
+		<textarea type="text" name="message" class="message-input" placeholder="YOUR TEXT..." rows="4" cols="50"></textarea> <br><br>
+
+		<input type="submit" value="SEND MESSAGE" class="smallerpic-button button-contacts">
+
+		</form>
+
+	<!-- 	<form>
+	<table cellpadding="5" cellspacing="5">
+		<tr class="trforall">
+			<td class="tdforall">NAME:</td>
+			<td class="tdforall"><input type="text" id="number1" placeholder="YOUR NAME..."></td>
+		</tr>
+		<br />
+		<tr class="trforall">
+			<td class="tdforall">EMAIL:</td>
+			<td class="tdforall"><input type="text" id="number2" placeholder="YOUR E-MAIL..."></td>
+		</tr>
+		<br />
+		<tr class="trforall">
+			<td class="tdforall">MESSAGE:</td>
+			<td class="tdforall"><input type="text" id="number3" placeholder="YOUR TEXT..."></td>
+		</tr>
+		<br />
+		<tr class="trforall">
+			<td colspan="5"><input type="button" id="bttCalculate" value="SEND MESSAGE"></td>
+		</tr>		
+	</table>
+</form> -->
+		
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+
+
+	<!-- CLEANER -->
+	<div class="cleaner"></div>
+
+
+
+	<ng-include src="'footer.html'"></ng-include>
+
+
+
+
+
+</body>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/ssbg-slideshow.min.js"></script>
+<script src="js/ssbg-slideshow.js"></script>
+<script type="text/javascript" src="js/angularjs.js"></script>
+<script src="js/angular-route.js"></script>
+</html>

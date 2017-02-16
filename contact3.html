@@ -1,0 +1,79 @@
+		<div class="container-fluid">
+
+
+
+
+
+		<div class="contact-container"> 
+		<h2 class="h2-contacts"> CONTACT US </h2>
+		
+		<form method="post" name="frm">
+
+		<p>NAME: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="name" ng-model="user.name" ng-minlength="2" placeholder="YOUR NAME..." class="nameinput"> <span ng-show="frm.name.$error.minlength">Too Short</span> <br><br></p>
+
+		<p>EMAIL: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="email" name="email" ng-model="user.email" placeholder="YOUR E-MAIL..." class="nameinput"> <span ng-show="frm.email.$error.email">Not an Email</span> <br><br></p>
+
+		<p class="message-p">MESSAGE:</p>
+		<textarea ng-minlenght="10" type="text" name="message" class="message-input" placeholder="YOUR TEXT..." rows="4" cols="50" ng-model="user.message" ng-minlength="5"></textarea> <br><span ng-show="frm.message.$error.minlength">Too Short  <br></span><br>
+
+		<input type="submit" value="SEND MESSAGE" ng-disable="frm.$invalid" class="smallerpic-button button-contacts">
+
+		</form>
+
+	<!-- 	<form>
+	<table cellpadding="5" cellspacing="5">
+		<tr class="trforall">
+			<td class="tdforall">NAME:</td>
+			<td class="tdforall"><input type="text" id="number1" placeholder="YOUR NAME..."></td>
+		</tr>
+		<br />
+		<tr class="trforall">
+			<td class="tdforall">EMAIL:</td>
+			<td class="tdforall"><input type="text" id="number2" placeholder="YOUR E-MAIL..."></td>
+		</tr>
+		<br />
+		<tr class="trforall">
+			<td class="tdforall">MESSAGE:</td>
+			<td class="tdforall"><input type="text" id="number3" placeholder="YOUR TEXT..."></td>
+		</tr>
+		<br />
+		<tr class="trforall">
+			<td colspan="5"><input type="button" id="bttCalculate" value="SEND MESSAGE"></td>
+		</tr>		
+	</table>
+</form> -->
+		
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+
+
+	<!-- CLEANER -->
+	<div class="cleaner"></div>
