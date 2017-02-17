@@ -388,6 +388,7 @@ nav {
 	padding-bottom: 10px !important;
 	display: flex;
 	font-family: 'arial' !important;
+	justify-content: center;
 }
 
 .smallerpic-button:hover{
