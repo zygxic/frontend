@@ -3,7 +3,27 @@
 		<!-- <div class="col-lg-12 fullsize-container">
 		<img src="images/slide-1.jpg" class="slideimg">
 		</div> -->
+<script> !function(a){"use strict";var b=a("[data-slides]"),c=0,d=b.data("slides"),e=d.length,f=function(){c>=e&&(c=0),b.css("background-image",'url("'+d[c]+'")').show(0,function(){setTimeout(f,5e3)}),c++};f()}(jQuery); 
 
+! function ($) {
+    "use strict";
+    var slide = $("[data-slides]"),
+        count = 0,
+        slides = slide.data("slides"),
+        len = slides.length,
+        n = function () {
+            if (count >= len) {
+                count = 0
+            }
+            slide.css("background-image", 'url("' + slides[count] + '")').show(0, function () {
+                setTimeout(n, 5e3)
+            });
+            count++;
+        };
+    n()
+}(jQuery);
+
+</script>
 
 		<!-- SLIDES -->
 <div class="col-lg-12 fullsize-container">
@@ -17,6 +37,35 @@
 		"images/slide-5.jpg"
 	]'
 > 
+<!-- 
+<script>
+	
+	
+
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex> slides.length) {slideIndex = 1}
+                slides[slideIndex-1].style.display = "block";
+                setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+        
+
+</script>
+
+<div class="w3-content fullsize-container">
+    <img class="mySlides test" src="images/slide-1.jpg" display: block;">
+    <img class="mySlides test" src="images/slide-2.jpg" display: none;">
+
+
+ -->
 
 
 <div class="blackboard">
@@ -132,12 +181,19 @@
 	<div class="mycontainer2">
 	
 	<script>
-		function hover(element) {
+	function hover(element) {
     element.setAttribute('src', 'images/starhover.svg');
-}
-function unhover(element) {
-    element.setAttribute('src', 'images/star.svg');
-}
+	}
+	function unhover(element) {
+	    element.setAttribute('src', 'images/star.svg');
+	}
+
+	function unhover2(element) {
+    element.setAttribute('src', 'images/smallerpic-shoe.jpg');
+	}
+	function hover2(element) {
+	    element.setAttribute('src', 'images/smallshoehover.jpg');
+	}
 	</script>
 
 
@@ -151,7 +207,7 @@ function unhover(element) {
 		<img src="images/star.svg" class="mallimg phoneing" onmouseover="hover(this);" onmouseout="unhover(this);">
 		</div>
 		<div class="smallerpic-div smallerpic-div-1">
-		<img src="images/smallerpic-shoe.jpg" class="logoimg smallerpic-shoe">
+		<a href="#/detail3"><img src="images/smallerpic-shoe.jpg" class="logoimg smallerpic-shoe" onmouseover="hover2(this);" onmouseout="unhover2(this);"></a>
 		</div>
 		<div class="smallerpic-text">
 			<h4 class="largerpic-h3 smallerpic-h3">Gel-Fujitrabuco 5 G-Tx </h4>
@@ -183,7 +239,7 @@ function unhover(element) {
 		<img src="images/star.svg" class="mallimg phoneing" onmouseover="hover(this);" onmouseout="unhover(this);">
 		</div>
 		<div class="smallerpic-div">
-		<img src="images/smallerpic-shoe.jpg" class="logoimg smallerpic-shoe">
+		<a href="#/detail3"><img src="images/smallerpic-shoe.jpg" class="logoimg smallerpic-shoe" onmouseover="hover2(this);" onmouseout="unhover2(this);"></a>
 		</div>
 		<div class="smallerpic-text">
 			<h4 class="largerpic-h3 smallerpic-h3">Gel-Fujitrabuco 5 G-Tx </h4>
@@ -214,7 +270,7 @@ function unhover(element) {
 		<img src="images/star.svg" class="mallimg phoneing" onmouseover="hover(this);" onmouseout="unhover(this);">
 		</div>
 		<div class="smallerpic-div">
-		<img src="images/smallerpic-shoe.jpg" class="logoimg smallerpic-shoe">
+		<a href="#/detail3"><img src="images/smallerpic-shoe.jpg" class="logoimg smallerpic-shoe" onmouseover="hover2(this);" onmouseout="unhover2(this);"></a>
 		</div>
 		<div class="smallerpic-text">
 			<h4 class="largerpic-h3 smallerpic-h3">Gel-Fujitrabuco 5 G-Tx </h4>
@@ -245,7 +301,7 @@ function unhover(element) {
 		<img src="images/star.svg" class="mallimg phoneing" onmouseover="hover(this);" onmouseout="unhover(this);">
 		</div>
 		<div class="smallerpic-div">
-		<img src="images/smallerpic-shoe.jpg" class="logoimg smallerpic-shoe">
+		<a href="#/detail3"><img src="images/smallerpic-shoe.jpg" class="logoimg smallerpic-shoe" onmouseover="hover2(this);" onmouseout="unhover2(this);"></a>
 		</div>
 		<div class="smallerpic-text">
 			<h4 class="largerpic-h3 smallerpic-h3">Gel-Fujitrabuco 5 G-Tx </h4>
@@ -283,7 +339,7 @@ function unhover(element) {
 		<img src="images/star.svg" class="mallimg phoneing" onmouseover="hover(this);" onmouseout="unhover(this);">
 		</div>
 		<div class="smallerpic-div">
-		<img src="images/smallerpic-shoe.jpg" class="logoimg smallerpic-shoe">
+		<a href="#/detail3"><img src="images/smallerpic-shoe.jpg" class="logoimg smallerpic-shoe" onmouseover="hover2(this);" onmouseout="unhover2(this);"></a>
 		</div>
 		<div class="smallerpic-text">
 			<h4 class="largerpic-h3 smallerpic-h3">Gel-Fujitrabuco 5 G-Tx </h4>
@@ -314,7 +370,7 @@ function unhover(element) {
 		<img src="images/star.svg" class="mallimg phoneing" onmouseover="hover(this);" onmouseout="unhover(this);">
 		</div>
 		<div class="smallerpic-div">
-		<img src="images/smallerpic-shoe.jpg" class="logoimg smallerpic-shoe">
+		<a href="#/detail3"><img src="images/smallerpic-shoe.jpg" class="logoimg smallerpic-shoe" onmouseover="hover2(this);" onmouseout="unhover2(this);"></a>
 		</div>
 		<div class="smallerpic-text">
 			<h4 class="largerpic-h3 smallerpic-h3">Gel-Fujitrabuco 5 G-Tx </h4>
@@ -345,7 +401,7 @@ function unhover(element) {
 		<img src="images/star.svg" class="mallimg phoneing" onmouseover="hover(this);" onmouseout="unhover(this);">
 		</div>
 		<div class="smallerpic-div">
-		<img src="images/smallerpic-shoe.jpg" class="logoimg smallerpic-shoe">
+		<a href="#/detail3"><img src="images/smallerpic-shoe.jpg" class="logoimg smallerpic-shoe" onmouseover="hover2(this);" onmouseout="unhover2(this);"></a>
 		</div>
 		<div class="smallerpic-text">
 			<h4 class="largerpic-h3 smallerpic-h3">Gel-Fujitrabuco 5 G-Tx </h4>
@@ -376,7 +432,7 @@ function unhover(element) {
 		<img src="images/star.svg" class="mallimg phoneing" onmouseover="hover(this);" onmouseout="unhover(this);">
 		</div>
 		<div class="smallerpic-div">
-		<img src="images/smallerpic-shoe.jpg" class="logoimg smallerpic-shoe">
+		<a href="#/detail3"><img src="images/smallerpic-shoe.jpg" class="logoimg smallerpic-shoe" onmouseover="hover2(this);" onmouseout="unhover2(this);"></a>
 		</div>
 		<div class="smallerpic-text">
 			<h4 class="largerpic-h3 smallerpic-h3">Gel-Fujitrabuco 5 G-Tx </h4>

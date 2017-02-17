@@ -31,12 +31,49 @@
 			</p>
 			<br />
 
+			<script>
+				function unhoverfb(element) {
+   				 element.setAttribute('src', 'images/fbunhover.svg');
+				}
+				function hoverfb(element) {
+				    element.setAttribute('src', 'images/fbpic.svg');
+				}
+
+				function unhovertw(element) {
+   				 element.setAttribute('src', 'images/twpic.svg');
+				}
+				function hovertw(element) {
+				    element.setAttribute('src', 'images/twhover.svg');
+				}
+
+				function unhoverg(element) {
+   				 element.setAttribute('src', 'images/googlepic.svg');
+				}
+				function hoverg(element) {
+				    element.setAttribute('src', 'images/ghover.svg');
+				}
+
+				function unhoverv(element) {
+   				 element.setAttribute('src', 'images/vpic.svg');
+				}
+				function hoverv(element) {
+				    element.setAttribute('src', 'images/vhover.svg');
+				}
+
+				function unhoverwifi(element) {
+   				 element.setAttribute('src', 'images/wifipic.svg');
+				}
+				function hoverwifi(element) {
+				    element.setAttribute('src', 'images/wifihover.svg');
+				}
+			</script>
+
 		<div class="footerpic-div">
-			<img src="images/fbpic.svg" class="smallimg phoneing footer-pic">
-			<img src="images/twpic.svg" class="smallimg phoneing footer-pic">
-			<img src="images/googlepic.svg" class="smallimg phoneing footer-pic">
-			<img src="images/vpic.svg" class="smallimg phoneing footer-pic">
-			<img src="images/wifipic.svg" class="smallimg phoneing footer-pic">
+			<img src="images/fbunhover.svg" class="smallimg phoneing footer-pic" onmouseover="hoverfb(this);" onmouseout="unhoverfb(this);">
+			<img src="images/twpic.svg" class="smallimg phoneing footer-pic" onmouseover="hovertw(this);" onmouseout="unhovertw(this);">
+			<img src="images/googlepic.svg" class="smallimg phoneing footer-pic" onmouseover="hoverg(this);" onmouseout="unhoverg(this);">
+			<img src="images/vpic.svg" class="smallimg phoneing footer-pic" onmouseover="hoverv(this);" onmouseout="unhoverv(this);">
+			<img src="images/wifipic.svg" class="smallimg phoneing footer-pic" onmouseover="hoverwifi(this);" onmouseout="unhoverwifi(this);">
 		</div>
 
 		</div>

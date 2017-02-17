@@ -390,6 +390,10 @@ nav {
 	font-family: 'arial' !important;
 }
 
+.smallerpic-button:hover{
+	color: yellow;
+}
+
 .smallerpic-container {
 	margin-bottom: 100px !important;
 }
@@ -435,6 +439,10 @@ nav {
 	padding-right: 20px !important;
 	padding-left: 20px !important;
 	font-family: 'arial' !important;
+}
+
+.signup-button:hover{
+	color: yellow;
 }
 
 .signup-div input {
@@ -586,6 +594,9 @@ nav {
 	font-family: 'arial' !important;
 }
 
+.blackboard-button:hover{
+	color: yellow;
+}
 
 .blackboard-div {
 	margin-left: 25% !important;
@@ -839,4 +850,15 @@ div.tab a:focus, .active {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border: none;
+}
+
+
+
+
+
+
+
+
+.footer-pic:hover {
+	fill: black;
 }

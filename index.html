@@ -10,26 +10,6 @@
 	<script src="js/angular-route.js"></script>
 	<script src="directory.js"></script>
 
- <script>
-//Array of images which you want to show: Use path you want.
-var images=new Array('images/slide-1.jpg','images/slide-2.jpg','images/slide-3.jpg');
-var nextimage=0;
-doSlideshow();
-
-function doSlideshow(){
-    if(nextimage>=images.length){nextimage=0;}
-    $('.global-header')
-    .css('background-image','url("'+images[nextimage++]+'")')
-    .fadeIn(500,function(){
-        setTimeout(doSlideshow,1000);
-    });
-}
-
- !function(a){"use strict";var b=a("[data-slides]"),c=0,d=b.data("slides"),e=d.length,f=function(){c>=e&&(c=0),b.css("background-image",'url("'+d[c]+'")').show(0,function(){setTimeout(f,5e3)}),c++};f()}(jQuery);
-
-angular.module('myapp', []);
-
-</script>
 
 
 
